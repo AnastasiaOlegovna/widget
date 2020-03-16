@@ -1,0 +1,1632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Фильтр</title>
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/nouislider.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+
+<div class="fr-wrapper">
+  <main id="fr-content">
+    <section class="fr-filter">
+      <div class="container">
+        <div class="fr-filter-top">
+          <span class="fr-filter-title">Жилые комплексы</span>
+          <a class="fr-btn fr-btn-primary-light fr-link-map" href="#">
+            <span class="fr-icon-block">
+              <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none"><path d="M10 0c-4.06 0-7.363 3.303-7.363 7.363 0 1.059.217 2.07.644 3.006 1.841 4.028 5.37 8.281 6.409 9.489.078.09.191.142.31.142s.233-.052.311-.142c1.038-1.207 4.567-5.46 6.409-9.489.427-.935.644-1.946.644-3.006 0-4.06-3.304-7.363-7.363-7.363zm0 11.188c-2.109 0-3.825-1.716-3.825-3.825s1.716-3.825 3.825-3.825 3.825 1.716 3.825 3.825-1.716 3.825-3.825 3.825z" /></svg>
+            </span>
+            На карте
+          </a>
+        </div>
+        <div class="fr-filter-products">
+          <div class="fr-filter-products-list">
+            <div class="fr-product-item-wide-container">
+              <div class="fr-product-item-wide">
+                <a href="" class="fr-product-item-wide-img">
+                  <img src="img/product.jpg" alt="Манхеттэн">
+                </a>
+                <div class="fr-product-item-wide-block">
+                  <div class="fr-product-item-wide-block-top">
+                    <h6 class="fr-product-item-wide-title">
+                      <a href="">Манхеттэн</a>
+                    </h6>
+                    <div class="fr-product-item-wide-address">г. Харьков м. Защитников Украины пр. Московский, 97</div>
+                  </div>
+                  <div class="fr-product-item-wide-block-bottom">
+                    <div class="fr-product-item-wide-property-row">
+                      <div class="fr-product-item-wide-property">
+                        <div class="fr-product-item-wide-property-label">Стоимость</div>
+                        <div class="fr-product-item-wide-property-value">от 30 млн. тг</div>
+                      </div>
+                      <div class="fr-product-item-wide-property">
+                        <div class="fr-product-item-wide-property-label">Класс</div>
+                        <div class="fr-product-item-wide-property-value with-dot-on-left with-dot-on-left_grey">Бизнес</div>
+                      </div>
+                    </div>
+                    <button type="button" class="fr-btn fr-btn-primary-light fr-btn-round fr-btn-wide fr-btn-slideDown"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="fr-flats-list-inner" style="display: none">
+                <div class="fr-flats-list">
+                  <div class="fr-flats-list-header">
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item_layout">Планировка и комнаты</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Площадь</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Этаж</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Сдача</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Стоимость</div>
+                  </div>
+                  <div class="fr-flats-list-content">
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-button">
+                      <button type="button" class="fr-btn fr-btn-show-more fr-btn-primary-light fr-btn-wide fr-btn-round">Показать еще</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="fr-flats-list-small">
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fr-product-item-wide-container">
+              <div class="fr-product-item-wide">
+                <a href="" class="fr-product-item-wide-img">
+                  <img src="img/product.jpg" alt="Манхеттэн">
+                </a>
+                <div class="fr-product-item-wide-block">
+                  <div class="fr-product-item-wide-block-top">
+                    <h6 class="fr-product-item-wide-title">
+                      <a href="">Манхеттэн</a>
+                    </h6>
+                    <div class="fr-product-item-wide-address">г. Харьков м. Защитников Украины пр. Московский, 97</div>
+                  </div>
+                  <div class="fr-product-item-wide-block-bottom">
+                    <div class="fr-product-item-wide-property-row">
+                      <div class="fr-product-item-wide-property">
+                        <div class="fr-product-item-wide-property-label">Стоимость</div>
+                        <div class="fr-product-item-wide-property-value">от 30 млн. тг</div>
+                      </div>
+                      <div class="fr-product-item-wide-property">
+                        <div class="fr-product-item-wide-property-label">Класс</div>
+                        <div class="fr-product-item-wide-property-value with-dot-on-left with-dot-on-left_grey">Бизнес</div>
+                      </div>
+                    </div>
+                    <button type="button" class="fr-btn fr-btn-primary-light fr-btn-round fr-btn-wide fr-btn-slideDown"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="fr-flats-list-inner" style="display: none">
+                <div class="fr-flats-list">
+                  <div class="fr-flats-list-header">
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item_layout">Планировка и комнаты</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Площадь</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Этаж</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Сдача</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Стоимость</div>
+                  </div>
+                  <div class="fr-flats-list-content">
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-button">
+                      <button type="button" class="fr-btn fr-btn-show-more fr-btn-primary-light fr-btn-wide fr-btn-round">Показать еще</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="fr-flats-list-small">
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fr-product-item-wide-container">
+              <div class="fr-product-item-wide">
+                <a href="" class="fr-product-item-wide-img">
+                  <img src="img/product.jpg" alt="Манхеттэн">
+                </a>
+                <div class="fr-product-item-wide-block">
+                  <div class="fr-product-item-wide-block-top">
+                    <h6 class="fr-product-item-wide-title">
+                      <a href="">Манхеттэн</a>
+                    </h6>
+                    <div class="fr-product-item-wide-address">г. Харьков м. Защитников Украины пр. Московский, 97</div>
+                  </div>
+                  <div class="fr-product-item-wide-block-bottom">
+                    <div class="fr-product-item-wide-property-row">
+                      <div class="fr-product-item-wide-property">
+                        <div class="fr-product-item-wide-property-label">Стоимость</div>
+                        <div class="fr-product-item-wide-property-value">от 30 млн. тг</div>
+                      </div>
+                      <div class="fr-product-item-wide-property">
+                        <div class="fr-product-item-wide-property-label">Класс</div>
+                        <div class="fr-product-item-wide-property-value with-dot-on-left with-dot-on-left_grey">Бизнес</div>
+                      </div>
+                    </div>
+                    <button type="button" class="fr-btn fr-btn-primary-light fr-btn-round fr-btn-wide fr-btn-slideDown"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="fr-flats-list-inner" style="display: none">
+                <div class="fr-flats-list">
+                  <div class="fr-flats-list-header">
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item_layout">Планировка и комнаты</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Площадь</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Этаж</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Сдача</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Стоимость</div>
+                  </div>
+                  <div class="fr-flats-list-content">
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-button">
+                      <button type="button" class="fr-btn fr-btn-show-more fr-btn-primary-light fr-btn-wide fr-btn-round">Показать еще</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="fr-flats-list-small">
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fr-product-item-wide-container">
+              <div class="fr-product-item-wide">
+                <a href="" class="fr-product-item-wide-img">
+                  <img src="img/product.jpg" alt="Манхеттэн">
+                </a>
+                <div class="fr-product-item-wide-block">
+                  <div class="fr-product-item-wide-block-top">
+                    <h6 class="fr-product-item-wide-title">
+                      <a href="">Манхеттэн</a>
+                    </h6>
+                    <div class="fr-product-item-wide-address">г. Харьков м. Защитников Украины пр. Московский, 97</div>
+                  </div>
+                  <div class="fr-product-item-wide-block-bottom">
+                    <div class="fr-product-item-wide-property-row">
+                      <div class="fr-product-item-wide-property">
+                        <div class="fr-product-item-wide-property-label">Стоимость</div>
+                        <div class="fr-product-item-wide-property-value">от 30 млн. тг</div>
+                      </div>
+                      <div class="fr-product-item-wide-property">
+                        <div class="fr-product-item-wide-property-label">Класс</div>
+                        <div class="fr-product-item-wide-property-value with-dot-on-left with-dot-on-left_grey">Бизнес</div>
+                      </div>
+                    </div>
+                    <button type="button" class="fr-btn fr-btn-primary-light fr-btn-round fr-btn-wide fr-btn-slideDown"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="fr-flats-list-inner" style="display: none">
+                <div class="fr-flats-list">
+                  <div class="fr-flats-list-header">
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item_layout">Планировка и комнаты</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Площадь</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Этаж</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Сдача</div>
+                    <div class="fr-flats-list-header-item fr-flats-list-header-item--filtred">Стоимость</div>
+                  </div>
+                  <div class="fr-flats-list-content">
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-row">
+                      <div class="fr-flats-list-row-item fr-flats-list-row-item_layout">
+                        <div class="fr-flats-list-row-item_layout_container">
+                          <figure>
+                            <img src="img/flat-layout.jpg" alt="layout">
+                          </figure>
+                          <div class="fr-flats-list-row-item_layout-description">
+                            <p><b>3-ком,&nbsp;<span></span>№3а</b></p>
+                            <p class="highlight">Манхеттен - 1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-row-item">112.9 м2</div>
+                      <div class="fr-flats-list-row-item">3/21</div>
+                      <div class="fr-flats-list-row-item">2019/IV</div>
+                      <div class="fr-flats-list-row-item">61 530 500 тг</div>
+                    </div>
+                    <div class="fr-flats-list-button">
+                      <button type="button" class="fr-btn fr-btn-show-more fr-btn-primary-light fr-btn-wide fr-btn-round">Показать еще</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="fr-flats-list-small">
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                  <div class="fr-flats-list-small-item">
+                    <div class="fr-flats-list-small-item-top">
+                      <div class="fr-flats-list-small-item-top-info">
+                        <h4> №3а</h4>
+                        <span>3-ком</span>
+                        <p class="fr-highlight">Манхеттен - 1</p>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Площадь</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">112.9 м2</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Этаж</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">3/21</div>
+                        </div>
+                        <div class="fr-flats-list-small-item-top-info-row">
+                          <div class="fr-flats-list-small-item-top-info-row-label">Сдача</div>
+                          <div class="fr-flats-list-small-item-top-info-row-value">2019/IV</div>
+                        </div>
+                      </div>
+                      <div class="fr-flats-list-small-item-top-layout">
+                        <img src="img/flat-layout.jpg" alt="layout">
+                      </div>
+                    </div>
+                    <div class="fr-flats-list-small-item-bottom">
+                      <div class="fr-flats-list-small-item-bottom-price">993 600 тг</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fr-content-more">
+              <button type="button" class="fr-btn fr-btn-round fr-btn-wide">Показать ещё 15</button>
+            </div>
+          </div>
+
+          <div class="fr-filter-products-filter">
+            <div class="fr-filter-products-filter-body">
+              <ul class="fr-tabs fr-tabs-js fr-filter-block-types">
+                <li><a href="#filter-content-1" class="fr-tab active" id="filter-tab-1">Жилые</a></li>
+                <li><a href="#filter-content-2" class="fr-tab" id="filter-tab-2">Коммерческие</a></li>
+                <li><a href="#filter-content-3" class="fr-tab" id="filter-tab-3">Иные</a></li>
+              </ul>
+              <div class="fr-tabs-content">
+                <div id="filter-content-1" class="fr-tab-content fr-filter-block-form active">
+                  <form class="">
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-city">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="city-value" class="fr-drop-down__value b-order-prepare__field" data-id="city">Выберите город</span>
+                        <input type="hidden" value="">
+                        <div id="city" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Выберите город">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="city">
+                            <li class="js-item fr-drop-down__list-item">Все города</li>
+                            <li class="js-item fr-drop-down__list-item">Авангард</li>
+                            <li class="js-item fr-drop-down__list-item">Авдеевка</li>
+                            <li class="js-item fr-drop-down__list-item">Авиаторское</li>
+                            <li class="js-item fr-drop-down__list-item">Агрономичное</li>
+                            <li class="js-item fr-drop-down__list-item">Аджамка</li>
+                            <li class="js-item fr-drop-down__list-item">Ананьев</li>
+                            <li class="js-item fr-drop-down__list-item">Андреевка (Балаклейский р-н)</li>
+                            <li class="js-item fr-drop-down__list-item">Андреевка (Бердянский р-н)</li>
+                            <li class="js-item fr-drop-down__list-item">Андрушевка</li>
+                            <li class="js-item fr-drop-down__list-item">Антоновка (Скадовский р-н)</li>
+                            <li class="js-item fr-drop-down__list-item">Антонины</li>
+                            <li class="js-item fr-drop-down__list-item">Апостолово</li>
+                            <li class="js-item fr-drop-down__list-item">Арбузинка</li>
+                            <li class="js-item fr-drop-down__list-item">Арциз</li>
+                            <li class="js-item fr-drop-down__list-item">Аскания-Нова</li>
+                            <li class="js-item fr-drop-down__list-item">Аулы</li>
+                            <li class="js-item fr-drop-down__list-item">Бабаи</li>
+                            <li class="js-item fr-drop-down__list-item">Бабанка</li>
+                            <li class="js-item fr-drop-down__list-item">Балабино</li>
+                            <li class="js-item fr-drop-down__list-item">Балаклея (Черкасская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Балаклея (Харьковская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Балки (Запорожская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Балта</li>
+                            <li class="js-item fr-drop-down__list-item">Банилов</li>
+                            <li class="js-item fr-drop-down__list-item">Бар</li>
+                            <li class="js-item fr-drop-down__list-item">Баранинцы (Закарпатская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Барановка</li>
+                            <li class="js-item fr-drop-down__list-item">Барвенково</li>
+                            <li class="js-item fr-drop-down__list-item">Барышевка</li>
+                            <li class="js-item fr-drop-down__list-item">Бахмач</li>
+                            <li class="js-item fr-drop-down__list-item">Бахмут</li>
+                            <li class="js-item fr-drop-down__list-item">Баштанка</li>
+                            <li class="js-item fr-drop-down__list-item">Безлюдовка</li>
+                            <li class="js-item fr-drop-down__list-item">Бердичев</li>
+                            <li class="js-item fr-drop-down__list-item">Бердянск</li>
+                            <li class="js-item fr-drop-down__list-item">Берегово</li>
+                            <li class="js-item fr-drop-down__list-item">Берегомет</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--flex fr-form-block--sm-flex-col">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="class_comfort" id="class_comfort">
+                        <label class="fr-form-check-label" for="class_comfort">Комфорт</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="class_business" id="class_business">
+                        <label class="fr-form-check-label" for="class_business">Бизнес</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="class_premium" id="class_premium">
+                        <label class="fr-form-check-label" for="class_premium">Премиум</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-objects">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="objects-value" class="fr-drop-down__value b-order-prepare__field" data-id="objects">Все объекты</span>
+                        <input type="hidden" value="">
+                        <div id="objects" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Все объекты">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="objects">
+                            <li class="js-item fr-drop-down__list-item">Все объекты</li>
+                            <li class="js-item fr-drop-down__list-item">test-1</li>
+                            <li class="js-item fr-drop-down__list-item">test-2</li>
+                            <li class="js-item fr-drop-down__list-item">test-3</li>
+                            <li class="js-item fr-drop-down__list-item">test-4</li>
+                            <li class="js-item fr-drop-down__list-item">test-5</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--checkbox fr-form-block--checkbox-group-rooms fr-form-block--flex">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="room-1" value="">
+                        <label class="fr-form-check-label" for="room-1">1</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="room-2" value="">
+                        <label class="fr-form-check-label" for="room-2">2</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="room-3" value="">
+                        <label class="fr-form-check-label" for="room-3">3</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="room-4" value="">
+                        <label class="fr-form-check-label" for="room-4">4 +</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-slider fr-form-slider-inner fr-form-slider-small">
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>От</span>
+                          <span>2</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>До</span>
+                          <span>100</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-slider fr-form-slider-inner fr-form-slider-small">
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>От</span>
+                          <span>2</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>До</span>
+                          <span>5</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--flex fr-form-block--sm-flex-col">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="not_first_floor" id="not_first_floor">
+                        <label class="fr-form-check-label" for="not_first_floor">Не первый</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="not_last_floor" id="not_last_floor">
+                        <label class="fr-form-check-label" for="not_last_floor">Не последний</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-slider fr-form-slider-inner fr-form-slider-small">
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>От</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>До</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--flex fr-form-block--sm-flex-col">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="repair_finished" id="repair_finished">
+                        <label class="fr-form-check-label" for="repair_finished">С отделкой</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="repair_not_finished" id="repair_not_finished">
+                        <label class="fr-form-check-label" for="repair_not_finished">Без отделки</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--checkbox fr-form-block--checkbox-group-rooms fr-form-block--flex">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="1_2019" value="">
+                        <label class="fr-form-check-label" for="1_2019">2019</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="1_2020" value="">
+                        <label class="fr-form-check-label" for="1_2020">2020</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="1_2021" value="">
+                        <label class="fr-form-check-label" for="1_2021">2021</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-stage">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="stage-value" class="fr-drop-down__value b-order-prepare__field" data-id="stage">Все стадии</span>
+                        <input type="hidden" value="">
+                        <div id="stage" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Все стадии">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="stage">
+                            <li class="js-item fr-drop-down__list-item">Все стадии</li>
+                            <li class="js-item fr-drop-down__list-item">На этапе строительства</li>
+                            <li class="js-item fr-drop-down__list-item">Готов</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-district">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="district-value" class="fr-drop-down__value b-order-prepare__field" data-id="district">Все районы</span>
+                        <input type="hidden" value="">
+                        <div id="district" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Все районы">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="district">
+                            <li class="js-item fr-drop-down__list-item">Все районы</li>
+                            <li class="js-item fr-drop-down__list-item">test1</li>
+                            <li class="js-item fr-drop-down__list-item">test2</li>
+                            <li class="js-item fr-drop-down__list-item">test3</li>
+                            <li class="js-item fr-drop-down__list-item">test4</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-address">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="address-value" class="fr-drop-down__value b-order-prepare__field" data-id="address2">Везде</span>
+                        <input type="hidden" value="">
+                        <div id="address" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Везде">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="address2">
+                            <li class="js-item fr-drop-down__list-item">address-1</li>
+                            <li class="js-item fr-drop-down__list-item">address-2</li>
+                            <li class="js-item fr-drop-down__list-item">address-3</li>
+                            <li class="js-item fr-drop-down__list-item">address-4</li>
+                            <li class="js-item fr-drop-down__list-item">address-5</li>
+                            <li class="js-item fr-drop-down__list-item">address-6</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--flex fr-form-block--sm-flex-col">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="credit" id="credit">
+                        <label class="fr-form-check-label" for="credit">Ипотека</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="discount" id="discount">
+                        <label class="fr-form-check-label" for="discount">Акции и скидки</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block">
+                      <button type="submit" class="fr-btn fr-btn-primary fr-btn-round fr-btn-wide">Нашлось 0 обьектов</button>
+                    </div>
+                    <div class="fr-form-block text-center"><a href="#">Сбросить фильтр</a></div>
+                  </form>
+                </div>
+                <div id="filter-content-2" class="fr-tab-content">
+                  <form class="">
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-city">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="city2-value" class="fr-drop-down__value b-order-prepare__field" data-id="city2">Выберите город</span>
+                        <input type="hidden" value="">
+                        <div id="city2" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Выберите город">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="city2">
+                            <li class="js-item fr-drop-down__list-item">Все города</li>
+                            <li class="js-item fr-drop-down__list-item">Авангард</li>
+                            <li class="js-item fr-drop-down__list-item">Авдеевка</li>
+                            <li class="js-item fr-drop-down__list-item">Авиаторское</li>
+                            <li class="js-item fr-drop-down__list-item">Агрономичное</li>
+                            <li class="js-item fr-drop-down__list-item">Аджамка</li>
+                            <li class="js-item fr-drop-down__list-item">Ананьев</li>
+                            <li class="js-item fr-drop-down__list-item">Андреевка (Балаклейский р-н)</li>
+                            <li class="js-item fr-drop-down__list-item">Андреевка (Бердянский р-н)</li>
+                            <li class="js-item fr-drop-down__list-item">Андрушевка</li>
+                            <li class="js-item fr-drop-down__list-item">Антоновка (Скадовский р-н)</li>
+                            <li class="js-item fr-drop-down__list-item">Антонины</li>
+                            <li class="js-item fr-drop-down__list-item">Апостолово</li>
+                            <li class="js-item fr-drop-down__list-item">Арбузинка</li>
+                            <li class="js-item fr-drop-down__list-item">Арциз</li>
+                            <li class="js-item fr-drop-down__list-item">Аскания-Нова</li>
+                            <li class="js-item fr-drop-down__list-item">Аулы</li>
+                            <li class="js-item fr-drop-down__list-item">Бабаи</li>
+                            <li class="js-item fr-drop-down__list-item">Бабанка</li>
+                            <li class="js-item fr-drop-down__list-item">Балабино</li>
+                            <li class="js-item fr-drop-down__list-item">Балаклея (Черкасская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Балаклея (Харьковская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Балки (Запорожская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Балта</li>
+                            <li class="js-item fr-drop-down__list-item">Банилов</li>
+                            <li class="js-item fr-drop-down__list-item">Бар</li>
+                            <li class="js-item fr-drop-down__list-item">Баранинцы (Закарпатская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Барановка</li>
+                            <li class="js-item fr-drop-down__list-item">Барвенково</li>
+                            <li class="js-item fr-drop-down__list-item">Барышевка</li>
+                            <li class="js-item fr-drop-down__list-item">Бахмач</li>
+                            <li class="js-item fr-drop-down__list-item">Бахмут</li>
+                            <li class="js-item fr-drop-down__list-item">Баштанка</li>
+                            <li class="js-item fr-drop-down__list-item">Безлюдовка</li>
+                            <li class="js-item fr-drop-down__list-item">Бердичев</li>
+                            <li class="js-item fr-drop-down__list-item">Бердянск</li>
+                            <li class="js-item fr-drop-down__list-item">Берегово</li>
+                            <li class="js-item fr-drop-down__list-item">Берегомет</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--flex fr-form-block--sm-flex-col">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="class_comfort2" id="class_comfort2">
+                        <label class="fr-form-check-label" for="class_comfort2">Комфорт</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="class_business2" id="class_business2">
+                        <label class="fr-form-check-label" for="class_business2">Бизнес</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="class_premium2" id="class_premium2">
+                        <label class="fr-form-check-label" for="class_premium2">Премиум</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-objects">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="objects2-value" class="fr-drop-down__value b-order-prepare__field" data-id="objects2">Все объекты</span>
+                        <input type="hidden" value="">
+                        <div id="objects2" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Все объекты">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="objects2">
+                            <li class="js-item fr-drop-down__list-item">Все объекты</li>
+                            <li class="js-item fr-drop-down__list-item">test-1</li>
+                            <li class="js-item fr-drop-down__list-item">test-2</li>
+                            <li class="js-item fr-drop-down__list-item">test-3</li>
+                            <li class="js-item fr-drop-down__list-item">test-4</li>
+                            <li class="js-item fr-drop-down__list-item">test-5</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-slider fr-form-slider-inner fr-form-slider-small">
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>От</span>
+                          <span>2</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>До</span>
+                          <span>100</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-slider fr-form-slider-inner fr-form-slider-small">
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>От</span>
+                          <span>2</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>До</span>
+                          <span>5</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-slider fr-form-slider-inner fr-form-slider-small">
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>От</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>До</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--flex fr-form-block--sm-flex-col">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="repair_finished2" id="repair_finished2">
+                        <label class="fr-form-check-label" for="repair_finished2">С отделкой</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="repair_not_finished" id="repair_not_finished2">
+                        <label class="fr-form-check-label" for="repair_not_finished2">Без отделки</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--checkbox fr-form-block--checkbox-group-rooms fr-form-block--flex">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="2_1_2019" value="">
+                        <label class="fr-form-check-label" for="2_1_2019">2019</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="2_1_2020" value="">
+                        <label class="fr-form-check-label" for="2_1_2020">2020</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="2_1_2021" value="">
+                        <label class="fr-form-check-label" for="2_1_2021">2021</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-stage">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="stage2-value" class="fr-drop-down__value b-order-prepare__field" data-id="stage2">Все стадии</span>
+                        <input type="hidden" value="">
+                        <div id="stage2" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Все стадии">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="stage2">
+                            <li class="js-item fr-drop-down__list-item">Все стадии</li>
+                            <li class="js-item fr-drop-down__list-item">На этапе строительства</li>
+                            <li class="js-item fr-drop-down__list-item">Готов</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-district">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="district2-value" class="fr-drop-down__value b-order-prepare__field" data-id="district2">Все районы</span>
+                        <input type="hidden" value="">
+                        <div id="district2" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Все районы">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="district2">
+                            <li class="js-item fr-drop-down__list-item">Все районы</li>
+                            <li class="js-item fr-drop-down__list-item">test1</li>
+                            <li class="js-item fr-drop-down__list-item">test2</li>
+                            <li class="js-item fr-drop-down__list-item">test3</li>
+                            <li class="js-item fr-drop-down__list-item">test4</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-address">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="address2-value" class="fr-drop-down__value b-order-prepare__field" data-id="address2">Везде</span>
+                        <input type="hidden" value="">
+                        <div id="address2" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Везде">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="address2">
+                            <li class="js-item fr-drop-down__list-item">address-1</li>
+                            <li class="js-item fr-drop-down__list-item">address-2</li>
+                            <li class="js-item fr-drop-down__list-item">address-3</li>
+                            <li class="js-item fr-drop-down__list-item">address-4</li>
+                            <li class="js-item fr-drop-down__list-item">address-5</li>
+                            <li class="js-item fr-drop-down__list-item">address-6</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--flex fr-form-block--sm-flex-col">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="credit2" id="credit2">
+                        <label class="fr-form-check-label" for="credit2">Ипотека</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="discount2" id="discount2">
+                        <label class="fr-form-check-label" for="discount2">Акции и скидки</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block">
+                      <button type="submit" class="fr-btn fr-btn-primary fr-btn-round fr-btn-wide">Нашлось 0 обьектов</button>
+                    </div>
+                    <div class="fr-form-block text-center"><a href="#">Сбросить фильтр</a></div>
+                  </form>
+                </div>
+                <div id="filter-content-3" class="fr-tab-content">
+                  <form class="">
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-city">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="city3-value" class="fr-drop-down__value b-order-prepare__field" data-id="city3">Выберите город</span>
+                        <input type="hidden" value="">
+                        <div id="city3" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Выберите город">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="city3">
+                            <li class="js-item fr-drop-down__list-item">Все города</li>
+                            <li class="js-item fr-drop-down__list-item">Авангард</li>
+                            <li class="js-item fr-drop-down__list-item">Авдеевка</li>
+                            <li class="js-item fr-drop-down__list-item">Авиаторское</li>
+                            <li class="js-item fr-drop-down__list-item">Агрономичное</li>
+                            <li class="js-item fr-drop-down__list-item">Аджамка</li>
+                            <li class="js-item fr-drop-down__list-item">Ананьев</li>
+                            <li class="js-item fr-drop-down__list-item">Андреевка (Балаклейский р-н)</li>
+                            <li class="js-item fr-drop-down__list-item">Андреевка (Бердянский р-н)</li>
+                            <li class="js-item fr-drop-down__list-item">Андрушевка</li>
+                            <li class="js-item fr-drop-down__list-item">Антоновка (Скадовский р-н)</li>
+                            <li class="js-item fr-drop-down__list-item">Антонины</li>
+                            <li class="js-item fr-drop-down__list-item">Апостолово</li>
+                            <li class="js-item fr-drop-down__list-item">Арбузинка</li>
+                            <li class="js-item fr-drop-down__list-item">Арциз</li>
+                            <li class="js-item fr-drop-down__list-item">Аскания-Нова</li>
+                            <li class="js-item fr-drop-down__list-item">Аулы</li>
+                            <li class="js-item fr-drop-down__list-item">Бабаи</li>
+                            <li class="js-item fr-drop-down__list-item">Бабанка</li>
+                            <li class="js-item fr-drop-down__list-item">Балабино</li>
+                            <li class="js-item fr-drop-down__list-item">Балаклея (Черкасская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Балаклея (Харьковская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Балки (Запорожская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Балта</li>
+                            <li class="js-item fr-drop-down__list-item">Банилов</li>
+                            <li class="js-item fr-drop-down__list-item">Бар</li>
+                            <li class="js-item fr-drop-down__list-item">Баранинцы (Закарпатская обл.)</li>
+                            <li class="js-item fr-drop-down__list-item">Барановка</li>
+                            <li class="js-item fr-drop-down__list-item">Барвенково</li>
+                            <li class="js-item fr-drop-down__list-item">Барышевка</li>
+                            <li class="js-item fr-drop-down__list-item">Бахмач</li>
+                            <li class="js-item fr-drop-down__list-item">Бахмут</li>
+                            <li class="js-item fr-drop-down__list-item">Баштанка</li>
+                            <li class="js-item fr-drop-down__list-item">Безлюдовка</li>
+                            <li class="js-item fr-drop-down__list-item">Бердичев</li>
+                            <li class="js-item fr-drop-down__list-item">Бердянск</li>
+                            <li class="js-item fr-drop-down__list-item">Берегово</li>
+                            <li class="js-item fr-drop-down__list-item">Берегомет</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--flex fr-form-block--sm-flex-col">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="class_comfort3" id="class_comfort3">
+                        <label class="fr-form-check-label" for="class_comfort">Комфорт</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="class_business3" id="class_business3">
+                        <label class="fr-form-check-label" for="class_business">Бизнес</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="class_premium3" id="class_premium3">
+                        <label class="fr-form-check-label" for="class_premium3">Премиум</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-objects">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="objects3-value" class="fr-drop-down__value b-order-prepare__field" data-id="objects3">Все объекты</span>
+                        <input type="hidden" value="">
+                        <div id="objects3" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Все объекты">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="objects3">
+                            <li class="js-item fr-drop-down__list-item">Все объекты</li>
+                            <li class="js-item fr-drop-down__list-item">test-1</li>
+                            <li class="js-item fr-drop-down__list-item">test-2</li>
+                            <li class="js-item fr-drop-down__list-item">test-3</li>
+                            <li class="js-item fr-drop-down__list-item">test-4</li>
+                            <li class="js-item fr-drop-down__list-item">test-5</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-slider fr-form-slider-inner fr-form-slider-small">
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>От</span>
+                          <span>2</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>До</span>
+                          <span>100</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-slider fr-form-slider-inner fr-form-slider-small">
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>От</span>
+                          <span>2</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>До</span>
+                          <span>5</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-slider fr-form-slider-inner fr-form-slider-small">
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>От</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                      <div class="fr-filter-range">
+                        <div class="fr-filter-range-head">
+                          <span>До</span>
+                          <span>млн.</span>
+                        </div>
+                        <div class="fr-range-field"></div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--flex fr-form-block--sm-flex-col">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="repair_finished3" id="repair_finished3">
+                        <label class="fr-form-check-label" for="repair_finished3">С отделкой</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="repair_not_finished3" id="repair_not_finished3">
+                        <label class="fr-form-check-label" for="repair_not_finished3">Без отделки</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--checkbox fr-form-block--checkbox-group-rooms fr-form-block--flex">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="3_1_2019" value="">
+                        <label class="fr-form-check-label" for="3_1_2019">2019</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="3_1_2020" value="">
+                        <label class="fr-form-check-label" for="3_1_2020">2020</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" id="3_1_2021" value="">
+                        <label class="fr-form-check-label" for="3_1_2021">2021</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-stage">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="stage3-value" class="fr-drop-down__value b-order-prepare__field" data-id="stage3">Все стадии</span>
+                        <input type="hidden" value="">
+                        <div id="stage3" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Все стадии">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="stage3">
+                            <li class="js-item fr-drop-down__list-item">Все стадии</li>
+                            <li class="js-item fr-drop-down__list-item">На этапе строительства</li>
+                            <li class="js-item fr-drop-down__list-item">Готов</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-district">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="district3-value" class="fr-drop-down__value b-order-prepare__field" data-id="district3">Все районы</span>
+                        <input type="hidden" value="">
+                        <div id="district3" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Все районы">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="district3">
+                            <li class="js-item fr-drop-down__list-item">Все районы</li>
+                            <li class="js-item fr-drop-down__list-item">test1</li>
+                            <li class="js-item fr-drop-down__list-item">test2</li>
+                            <li class="js-item fr-drop-down__list-item">test3</li>
+                            <li class="js-item fr-drop-down__list-item">test4</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block b-order-prepare__field" data-qaid="select-address">
+                      <div class="fr-drop-down" data-qaid="dd_widget">
+                        <span id="address3-value" class="fr-drop-down__value b-order-prepare__field" data-id="address3">Везде</span>
+                        <input type="hidden" value="">
+                        <div id="address3" class="fr-drop-down__dropped">
+                          <div class="fr-drop-down__search">
+                            <div class="fr-input fr-input_size_s">
+                              <input type="text" class="fr-input__field" autocomplete="off" value="" placeholder="Везде">
+                            </div>
+                          </div>
+                          <ul class="fr-drop-down__list fr-dropdown-js" data-id="address3">
+                            <li class="js-item fr-drop-down__list-item">address-1</li>
+                            <li class="js-item fr-drop-down__list-item">address-2</li>
+                            <li class="js-item fr-drop-down__list-item">address-3</li>
+                            <li class="js-item fr-drop-down__list-item">address-4</li>
+                            <li class="js-item fr-drop-down__list-item">address-5</li>
+                            <li class="js-item fr-drop-down__list-item">address-6</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fr-form-block fr-form-block--flex fr-form-block--sm-flex-col">
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="credit3" id="credit3">
+                        <label class="fr-form-check-label" for="credit3">Ипотека</label>
+                      </div>
+                      <div class="fr-form-check">
+                        <input class="fr-form-check-input" type="checkbox" name="discount3" id="discount3">
+                        <label class="fr-form-check-label" for="discount3">Акции и скидки</label>
+                      </div>
+                    </div>
+                    <div class="fr-form-block">
+                      <button type="submit" class="fr-btn fr-btn-primary fr-btn-round fr-btn-wide">Нашлось 0 обьектов</button>
+                    </div>
+                    <div class="fr-form-block text-center"><a href="#">Сбросить фильтр</a></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="./js/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script src="./js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="./js/nouislider.js" type="text/javascript"></script>
+<script src="./js/common.js" type="text/javascript"></script>
+
+</body>
+</html>
